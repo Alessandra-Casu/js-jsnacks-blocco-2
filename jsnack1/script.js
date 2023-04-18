@@ -9,6 +9,13 @@ const myArr = [];
 
 for(i=0; i<=5; i++){
     let num = parseInt(prompt('Inserisci un numero'));
-    myArr[i] = num;
+    if (num %2 != 0)
+    {
+        myArr[i] = num;
+    }
     console.log(num);
-}
+    }
+
+console.log(myArr);
+    
+    
