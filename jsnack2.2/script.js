@@ -25,5 +25,6 @@ Generatore di “nomi cognomi” casuali: il Grande Gatsby ha una lista di nomi 
  for(i = 0; i < numberList; i++){
     const nameCasual = Math.floor(Math.random() * nameArr.lenght);
     const lastNameCasual = Math.floor(Math.random() * lastNameArr.lenght);
-    console.log( nameArr[nameCasual] + ' ' + lastNameArr[lastNameCasual]);
+
+    console.log(nameArr[nameCasual] + ' ' + lastNameArr[lastNameCasual]);
  }
