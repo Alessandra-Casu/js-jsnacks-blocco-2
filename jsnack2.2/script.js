@@ -8,7 +8,7 @@ let lastNameCasual;
 
  const lastNameArr = [ 'Rossi', 'Verdi', 'Gialli', 'Neri', 'Bianchi', 'Grigi'];
 
- const NameArr = ['Maria', 'Giuseppe', 'Enrico', 'Caterina',' Alessandro', 'Antonio'];
+ const nameArr = ['Maria', 'Giuseppe', 'Enrico', 'Caterina',' Alessandro', 'Antonio'];
 
  console.log(nameArr);
  console.log(lastNameArr);
@@ -16,8 +16,7 @@ let lastNameCasual;
  for(i=0; i<=5; i++){
         for(j=0; j<=5; j++)
         {
-            console.log(nameArr[i]);
-            console.log(lastNameArr[j]);
+            console.log( nameArr[i] + ' ' + lastNameArr[j] );
         }
 
  }
